@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/moviehall.css">
+</head>
+<body>
+    <div class="heading">
+        <p>Select Movie Theatre</p>
+    </div>
+    <div class="container">
+        <div class="box m1">
+            <p class = "theatre"><%= c0 %></p>
+            <p><%= a0 %></p>
+        </div>
+        <div class="box m2">
+            <p class = "theatre"><%= c1 %></p>
+            <p><%= a1 %></p>
+        </div>
+        <div class="box m3">
+            <p class = "theatre"><%= c2 %></p>
+            <p><%= a2 %></p>
+        </div>
+        <div class="box m4">
+            <p class = "theatre"><%= c3 %></p>
+            <p><%= a3 %></p>
+        </div>
+        <div class="box m5">
+            <p class = "theatre"><%= c4 %></p>
+            <p><%= a4 %></p>
+        </div>
+    </div>
+    <div class="">
+        <form action="/book" method="post">
+            <button class = "btn" id = "bt" type="Submit">Proceed</button>
+        </form>
+    </div>
+   
+    <script src="moviehall.js" charset="UTF-8"></script>
+</body>
+</html>

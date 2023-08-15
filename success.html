@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/su.css">
+</head>
+<body>
+    <div class="success">
+        <div class="logo">
+            <i class="fa-regular fa-circle-check fa-6x fa-flip"></i>
+        </div>
+        <div class="text">
+            <p>Congratulations! You have successfully booked your movie tickets!</p>
+        </div>
+    </div>
+    <div class="go">
+        <form action="/goback" method="post">
+            <button class = "btn1" type="submit">Go Home</button>
+        </form>
+        
+    </div>
+    <script src="https://kit.fontawesome.com/a155253d3e.js" crossorigin="anonymous"></script>
+
+    <canvas id="my-canvas"></canvas>
+    <script src="indexmin.js" charset="UTF-8"></script>
+
+    <script>
+        var confettiSettings = { target: 'my-canvas' };
+var confetti = new ConfettiGenerator(confettiSettings);
+confetti.render();
+    </script>
+</body>
+</html>

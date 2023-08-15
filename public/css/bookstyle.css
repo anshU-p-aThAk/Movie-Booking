@@ -1,0 +1,170 @@
+/* Heading section */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.movie{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 100px;
+    perspective: 1000px;
+}
+
+.screen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 300px;
+    border: 4px solid black;
+    box-shadow: 0 3px 10px black;
+    transform: rotateX(-45deg);
+    margin-bottom: 50px;
+}
+
+/* Seats */
+.seat {
+    height: 20px;
+    width: 20px;
+    border: 1px solid green;
+    margin: 4px;
+    border-radius: 2.5px;
+}
+
+.reserved {
+    background-color: grey;
+    border: 1px solid grey;
+}
+
+.seats {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 30px;
+}
+
+.sec-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 30px;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.seat:not(.reserved):hover {
+    /* background-color: green; */
+}
+
+.gree {
+    background-color: green;
+}
+
+.seat:not(.reserved) {
+    cursor: pointer;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box1 {
+    height: 20px;
+    width: 20px;
+    border: 1px solid green;
+    margin: 4px;
+    border-radius: 2.5px;
+    margin: auto;
+}
+
+.box2 {
+    height: 20px;
+    width: 20px;
+    margin: 4px;
+    border-radius: 2.5px;
+    margin: auto;
+    background-color: green;
+    border: 1px solid green;
+}
+
+.box3 {
+    height: 20px;
+    width: 20px;
+    border: 1px solid grey;
+    margin: 4px;
+    border-radius: 2.5px;
+    margin: auto;
+    background-color: grey;
+    border: 1px solid grey;
+}
+
+.box {
+    margin: 0 40px;
+    margin-bottom: 5px;
+}
+
+.information {
+    margin-top: 5px;
+    margin-bottom: 40px;
+}
+
+.footer {
+    height: 300px;
+    background-color: black;
+}
+
+.details {
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 20px;
+}
+
+.payment {
+   text-align: center;
+}
+
+.pay-btn {
+    color: white;
+    background-color: gray;
+    height: 50px;
+    width: 120px;
+    border-radius: 10px;
+    font-weight: bold;
+    margin-bottom: 60px;
+    font-size: 15px;
+    border-color: gray;
+    border-style: none;
+    cursor: not-allowed;
+    pointer-events: none;
+}
+.clickable {
+    cursor: pointer;
+    background-color: red;
+    border-color: red;
+    pointer-events: all;
+}

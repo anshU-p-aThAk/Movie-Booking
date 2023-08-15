@@ -1,0 +1,26 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style2.css">
+</head>
+<body>
+    <div class="image">
+        <img class = "poster" src= <%= img %> alt="">
+        <p class = "title"><%= movieName %></p>
+    </div>
+    <hr class = "line">
+    <div class= "about">
+        <h2 class = "cast" >Cast</h2>
+        <p class = "names"><%= actorNames %></p>
+    </div>
+    <div class="book">
+        <form action="/cityChoose" method = "post">
+        <button class = "book-btn" type="submit" name="book-ticket">Book Tickets</button>
+        </form>
+    </div>
+</body>
+</html>

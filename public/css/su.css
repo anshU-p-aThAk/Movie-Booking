@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.success {
+    height: 400px;
+    width: 600px;
+    background-color: black;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    flex-direction: column;
+}
+
+.fa-circle-check {
+    color: white;
+   margin-bottom: 15px;
+}
+
+.text {
+    text-align: center;
+    font-size: 30px;
+    margin-left: 15px;
+    margin-right: 15px;
+    color: white;
+}
+
+.go {
+    text-align: center;
+    
+    margin-top: 560px;
+}
+
+.btn1 {
+    background: #33363d;
+    background-image: -webkit-linear-gradient(top, #33363d, #969696);
+    background-image: -moz-linear-gradient(top, #33363d, #969696);
+    background-image: -ms-linear-gradient(top, #33363d, #969696);
+    background-image: -o-linear-gradient(top, #33363d, #969696);
+    background-image: linear-gradient(to bottom, #33363d, #969696);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    border-style: none;
+    cursor: pointer;
+  }
+  
+  .btn1:hover {
+    background: #969696;
+    background-image: -webkit-linear-gradient(top, #969696, #33363d);
+    background-image: -moz-linear-gradient(top, #969696, #33363d);
+    background-image: -ms-linear-gradient(top, #969696, #33363d);
+    background-image: -o-linear-gradient(top, #969696, #33363d);
+    background-image: linear-gradient(to bottom, #969696, #33363d);
+    text-decoration: none;
+  }
+
+  #my-canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: -2;
+  }
